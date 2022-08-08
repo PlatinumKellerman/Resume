@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100&family=Open+Sans:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Resume</title>
+</head>
+
+<body>
+
+    <!--Main-->
+    <div class="main">
+        <!--Main Content-->
+        <div class="main_content">
+
+            <!--About-->
+            <div class="about_user">
+
+                <h1 class="name"><span class="first-name">Volodymyr</span><br> <span class="last-name">Bondarenko</span>
+                </h1>
+
+                <h2 class="about_position">Front-End Developer</h2>
+
+                <p class="about_discription">
+                    Hi, my name is Volodymyr, I am a student of the online school GoIT.
+                    I have a long-held dream to change my current business and enter the IT industry.
+                    Why did I decide to become a JS developer? It's very simple:
+                    I believe that the IT opens up endless opportunities for developers for self-development and career
+                    growth.
+                </p>
+
+            </div>
+
+            <!--Projects-->
+            <div class="projects">
+                <h3 class="title">PROJECTS</h3>
+                <ol class="projects_list">
+                    <li class="project_list_item">
+                        <a
+                            href="https://platinumkellerman.github.io/goit-markup-hw-08/">https://platinumkellerman.github.io/goit-markup-hw-08/</a>
+                        ______________ <b>[</b> HTML5, CSS3 <b>]</b>
+                    </li>
+                    <li class="project_list_item">
+                        <a
+                            href="https://platinumkellerman.github.io/goit-markup-hw-08/">https://platinumkellerman.github.io/goit-markup-hw-08/</a>______________
+                        <b>[</b> JavaScript <b>]</b>
+                    </li>
+                </ol>
+            </div>
+
+            <!--Work-->
+            <div class="work">
+
+                <h3 class="title">Work Experience</h3>
+
+                <!--Company 1-->
+
+                <div>
+                    <h3 class="work_discription">Front-End Developer <span class="work_color">Freelance</span></h4>
+                        <h5 class="date"> September 2019 - up to now <span class="line">|</span> Country</h5>
+                        <ul class="work_list">
+                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna
+                                aliqua.</li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                            <li>Risus commodo viverra maecenas.</li>
+                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</li>
+                        </ul>
+                </div>
+
+                <!--Company 2-->
+
+                <div>
+                    <h3>Manager <span class="work_color">Roga & Kopyta New</span></h4>
+                        <h5 class="date">March 2015 - October 2018 <span class="line">|</span> Country</h5>
+                        <ul class="work_list">
+                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore
+                                magna aliqua.</li>
+                            <li>Quis ipsum suspendisse ultrices gravida.</li>
+                            <li>Risus commodo viverra maecenas.</li>
+                        </ul>
+                </div>
+
+                <!--Company 3-->
+
+                <div>
+                    <h3>Manager <span class="work_color">Roga & Kopyta LLC</span></h4>
+                        <h5 class="date">June 2014 - February 2015 <span class="line">|</span> Country</h5>
+                        <ul class="work_list">
+                            <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                            <li>Quis ipsum suspendisse ultrices gravida.</li>
+                            <li>Risus commodo viverra maecenas.</li>
+                        </ul>
+                </div>
+
+
+            </div>
+
+            <!--Education-->
+
+            <div class="edu">
+                <h3 class="title">Education</h3>
+
+                <h4 class="work_color">National University of Radioelectronics</h4>
+
+                <h5>Management</h5>
+
+                <h5 class="date">September 2009 - June 2014 <span class="line">|</span> Country</h5>
+            </div>
+
+        </div>
+
+        <!--Side Bar-->
+        <aside class="sidebar">
+            <img src="img/user_photo_mini.jpg" alt="user photo" class="photo">
+
+            <!--Contacts-->
+
+            <div class="contacts">
+                <b>
+                    <h3>Contacts</h3>
+                </b>
+                <div>
+                    <p>
+                        C: <a class="phone_number" href="tel:+380938610315">+38 093 86 10 315</a>
+                    </p>
+
+                    <p>
+                        E: <a class="email" href="mailto:platinumm@ukr.net">platinumm@ukr.net</a>
+                    </p>
+
+                </div>
+            </div>
+
+            <!--Tech Skills-->
+
+            <div class="techskills">
+                <h3>Tech skills</h3>
+                <ul class=techskills_list>
+                    <li class="techskills_dot"> <span class="techskills_text">HTML5</span> </li>
+                    <li class="techskills_dot"> <span class="techskills_text">CSS3</span> </li>
+                    <li class="techskills_dot"> <span class="techskills_text">GIT</span> </li>
+                    <li class="techskills_dot"> <span class="techskills_text">WebPack</span> </li>
+                    <li class="techskills_dot"> <span class="techskills_text">JavaScript</span> </li>
+                    <li class="techskills_dot"> <span class="techskills_text">React.js</span> </li>
+                    <li class="techskills_dot"> <span class="techskills_text">Node.js</span> </li>
+                </ul>
+            </div>
+
+            <!--Soft Skills-->
+
+            <div class="soft_skills">
+                <h3>Soft Skills</h3>
+                <ul class="softskills_list">
+                    <li class="softskills_dot"> <span class="softskills_text">Scrum</span> </li>
+                    <li class="softskills_dot"> <span class="softskills_text">Agile</span> </li>
+                    <li class="softskills_dot"> <span class="softskills_text">GTD</span> </li>
+                    <li class="softskills_dot"> <span class="softskills_text">Teamwork</span> </li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+
+</body>
+
+</html>

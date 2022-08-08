@@ -58,7 +58,7 @@ body {
 .name {
   font-family: var(--main-font);
   line-height: 500%;
-  color: var(--name-color);  
+  color: var(--name-color);
 }
 
 .first-name {
@@ -87,7 +87,7 @@ body {
   font-family: var(--secondary-text-font);
   margin-top: 35px;
   font-style: normal;
-  font-weight:bolder;
+  font-weight: bolder;
   font-size: 20px;
   letter-spacing: 2px;
   color: var(--name-color);
@@ -104,13 +104,14 @@ body {
 /* Project Title  */
 
 .title {
-  font-size: 40px;
+  font-size: 36px;
   font-style: normal;
   font-weight: bold;
   color: var(--name-color);
   border-bottom: 1px solid var(--name-color);
+  text-transform: uppercase;
 }
-  
+
 /* Projects List */
 
 .projects_list {
@@ -195,7 +196,7 @@ body {
 
 /* Sidebar */
 .sidebar {
-  background-color: #1e2939;
+  background-color: var(--sidebar-background);
   margin: 30px 0px 30px 30px;
   width: 370px;
 }
