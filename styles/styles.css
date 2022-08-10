@@ -48,7 +48,7 @@ body {
 
 /* About User */
 .about_user {
-  padding: 80px 100px 80px 100px;
+  padding: 40px 100px;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -122,6 +122,8 @@ body {
 }
 
 .project_list_item {
+  display: flex;
+  justify-content: space-between;
   padding: 5px;
   margin-bottom: 5px;
   color: var(--secondary-text-color);
@@ -143,6 +145,10 @@ body {
 }
 
 /* Work Styles */
+
+.work_wrapper {
+  padding: 5px 20px 20px 20px;
+}
 
 .work_title {
   font-style: normal;
@@ -190,6 +196,10 @@ body {
   line-height: 27px;
 }
 
+.education_wrapper {
+  padding: 5px 20px 20px 20px;
+}
+
 .education_discription {
   font-style: normal;
   font-weight: 600;
@@ -214,12 +224,20 @@ body {
   padding: 20px 100px;
 }
 
+.add_education_wrapper {
+  padding: 5px 20px 20px 20px;
+}
+
 .add_education_discription {
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
   margin-bottom: 5px;
   padding: 5px;
+}
+
+.military_wrapper {
+  padding: 5px 20px 20px 20px;
 }
 
 .military_service {
@@ -236,6 +254,7 @@ body {
 
 .photo {
   width: 370px;
+  height: 544px;
 }
 
 /* Contacts */
