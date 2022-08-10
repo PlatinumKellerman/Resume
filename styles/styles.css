@@ -98,7 +98,7 @@ body {
 
 .projects {
   margin-top: 10px;
-  padding: 50px 100px 20px;
+  padding: 20px 100px 10px;
 }
 
 /* Project Title  */
@@ -117,7 +117,7 @@ body {
 /* Projects List */
 
 .projects_list {
-  padding: 20px;
+  padding: 10px 20px;
 }
 
 .project_list_item {
@@ -161,7 +161,7 @@ body {
 /* Work Styles */
 
 .work_wrapper {
-  padding: 5px 20px 20px 20px;
+  padding: 5px 20px;
 }
 
 .work_title {
@@ -173,7 +173,7 @@ body {
 
 .work {
   margin-top: 10px;
-  padding: 20px 100px 20px;
+  padding: 10px 100px 10px;
 }
 
 .work_discription {
@@ -186,7 +186,7 @@ body {
 }
 
 .work_list {
-  padding: 5px 20px 20px 20px;
+  padding: 5px 20px;
 }
 
 .work_item {
@@ -200,7 +200,7 @@ body {
 
 .education {
   margin-top: 10px;
-  padding: 20px 100px;
+  padding: 10px 100px;
 }
 
 .education_title {
@@ -211,7 +211,7 @@ body {
 }
 
 .education_wrapper {
-  padding: 5px 20px 20px 20px;
+  padding: 5px 20px;
 }
 
 .education_discription {
@@ -247,7 +247,7 @@ body {
 }
 
 .add_education_wrapper {
-  padding: 5px 20px 20px 20px;
+  padding: 5px 20px;
 }
 
 .add_education_discription {
@@ -259,12 +259,12 @@ body {
 }
 
 .military_wrapper {
-  padding: 5px 20px 20px 20px;
+  padding: 5px 20px;
 }
 
 .military_service {
   margin-top: 10px;
-  padding: 20px 100px;
+  padding: 10px 100px;
 }
 
 /* Sidebar */
