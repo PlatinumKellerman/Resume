@@ -39,7 +39,9 @@ body {
 }
 
 .container {
-  min-width: 320px;
+  width: 1000px;
+  margin-top: 10px;
+  padding: 20px 100px 10px;
 }
 
 /* Main Content */
@@ -244,7 +246,7 @@ body {
 /* Sidebar */
 .sidebar {
   background-color: var(--name-color);
-  max-width: 320px;
+  max-width: 400px;
 }
 
 .photo_wrapper {
@@ -369,7 +371,7 @@ body {
   margin-bottom: 0;
 }
 
-@media screen and (min-width: 480px) and (max-width: 767px) {
+/* @media screen and (min-width: 480px) and (max-width: 767px) {
   .container {
     width: 480px;
   }
@@ -399,4 +401,4 @@ body {
   .sidebar {
     max-width: 400px;
   }
-}
+} */
