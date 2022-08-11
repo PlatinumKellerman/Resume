@@ -34,8 +34,12 @@ body {
   width: 1600px;
   display: flex;
   flex-direction: row-reverse;
-  margin: 0 auto;
+  margin: 0;
   justify-content: center;
+}
+
+.container {
+  min-width: 320px;
 }
 
 /* Main Content */
@@ -96,11 +100,6 @@ body {
 
 /* Projects */
 
-.projects {
-  margin-top: 10px;
-  padding: 20px 100px 10px;
-}
-
 /* Project Title  */
 
 .title {
@@ -145,11 +144,6 @@ body {
   padding: 5px 0;
 }
 
-.project_item_text {
-}
-.project_item_technologies {
-}
-
 .line {
   font-style: normal;
   font-weight: normal;
@@ -169,11 +163,6 @@ body {
   font-weight: bold;
   font-size: 22px;
   line-height: 27px;
-}
-
-.work {
-  margin-top: 10px;
-  padding: 10px 100px 10px;
 }
 
 .work_discription {
@@ -196,11 +185,6 @@ body {
 }
 .work_item:last-child {
   margin-bottom: 0;
-}
-
-.education {
-  margin-top: 10px;
-  padding: 10px 100px;
 }
 
 .education_title {
@@ -241,11 +225,6 @@ body {
   padding: 5px;
 }
 
-.add_education {
-  margin-top: 10px;
-  padding: 20px 100px;
-}
-
 .add_education_wrapper {
   padding: 5px 20px;
 }
@@ -262,15 +241,10 @@ body {
   padding: 5px 20px;
 }
 
-.military_service {
-  margin-top: 10px;
-  padding: 10px 100px;
-}
-
 /* Sidebar */
 .sidebar {
   background-color: var(--name-color);
-  width: 400px;
+  max-width: 320px;
 }
 
 .photo_wrapper {
@@ -393,4 +367,36 @@ body {
 }
 .language_list_item:last-child {
   margin-bottom: 0;
+}
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  .container {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 1199px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1000px;
+    margin-top: 10px;
+    padding: 20px 100px 10px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 479px) {
+  .sidebar {
+    width: 320px;
+  }
+}
+
+@media screen and (min-width: 480px) and (min-width: 1200px) {
+  .sidebar {
+    max-width: 400px;
+  }
 }
